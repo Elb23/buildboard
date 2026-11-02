@@ -1,0 +1,12 @@
+.git
+node_modules
+dist
+.sites-runtime
+.wrangler
+.vinext
+.env
+.env.*
+!.env.example
+storage
+outputs
+*.zip

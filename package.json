@@ -1,0 +1,16 @@
+{
+  "name": "buildboard-engineering-workspace",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node vps-server.mjs",
+    "start:vps": "node vps-server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "configure": "node scripts/configure-vps.mjs",
+    "prepare:assets": "node scripts/embed-assets.mjs"
+  }
+}

@@ -1,0 +1,7 @@
+APP_USERNAME="Babdel"
+APP_PASSWORD_HASH=pbkdf2-sha256:100000:e1cbbe8884374fe6dad3627e094b9a24:171c35787616ad3d74caf731b1dbcf979a53c09b8bfe44e9ac371b7ad045539c
+HOST=127.0.0.1
+PORT=3000
+# Set the exact HTTPS origin when deploying behind your reverse proxy:
+# PUBLIC_URL=https://your-domain.example
+# COOKIE_SECURE=1
